@@ -1,0 +1,102 @@
+body{
+  background-image: url(/image/background.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  color: #336e9e;
+  font-family: "Bakbak One";
+}
+
+h1{
+  font-family: Niconne;
+}
+
+h2{
+  color: #000000;
+  text-shadow: 1px 1px 1px #1b820d;
+}
+
+h3{
+  font-family: Handlee;
+  text-align: center;
+  color: #000000;
+  text-shadow: 1px 1px 1px #1b820d;
+  font-size: 1.5em;
+}
+
+p{
+  font-size: 1.1em;
+  text-align: center;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+li{
+  font-size: 1.1em;
+}
+
+form{
+  font-size: 1.2em;
+}
+
+fieldset{
+  border: solid 6px #336e9e;
+  border-style: double;
+}
+
+.container { 
+  display: grid;
+  grid-template-areas: 
+    "header header header header"
+    "left main1 main1 main2"
+    "left main3 main4 main5"
+    "left down  down down"
+    "left footer footer footer";
+  grid-template-columns: 15% 25% 25% 25%;
+  gap: 10px;
+  }
+
+.box-1 {
+  grid-area: header;
+  text-align: center;
+}
+
+.box-2 { 
+  grid-area: left;
+}
+
+.box-3 { 
+  grid-area: main1;  
+}
+
+.box-4 { 
+  grid-area: main2;
+  text-align: center;
+}
+
+.box-5 { 
+  grid-area: main3;
+}
+
+.box-6 { 
+  grid-area: main4;
+}
+
+.box-7 { 
+  grid-area: main5;
+}
+
+.box-8 {
+  grid-area: down;
+  text-align: center;
+}
+
+.box-9 {
+  grid-area: footer;
+  text-align: center;  
+}
